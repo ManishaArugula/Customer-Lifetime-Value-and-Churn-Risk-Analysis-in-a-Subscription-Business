@@ -31,7 +31,7 @@ The business is experiencing customer churn that directly impacts recurring reve
 
 #### Supporting KPIs
 
--> Average Revenue Per User (ARPU)
+-> Average Revenue
 
 -> Average Revenue per Churned Customer
 
@@ -116,6 +116,10 @@ Value bands were created for interpretation only to:
 
 4. Value bands were not used in K-means clustering to avoid revenue-driven bias.
 
+
+<img width="500" height="500" alt="python" src="https://github.com/user-attachments/assets/5bb2d9ac-2faa-4de1-99fa-b455717ec3e7" />
+
+
 ## SQL Analysis – Key Findings
 
 1.Mid-to-late 2024 acquisition cohorts generated the highest observed CLV but also contributed a disproportionate share of churned revenue, indicating increased revenue fragility during high-growth periods
@@ -129,6 +133,10 @@ Value bands were created for interpretation only to:
 5.Segmentation & Deep Analysis (K-Means)
 
 6.Customers were segmented using behavioural, revenue, and support-related features.
+
+
+<img width="500" height="500" alt="sql" src="https://github.com/user-attachments/assets/45d4d972-0685-47c0-bb78-07994dc3e87c" />
+
 
 ### K-Means Segment Summary
 
@@ -160,6 +168,9 @@ Value bands were created for interpretation only to:
 
 This segmentation confirmed that churn risk is not linear with customer value and that the most damaging churn occurs among engaged customers experiencing friction.
 
+<img width="600" height="600" alt="kmeans" src="https://github.com/user-attachments/assets/d26eac39-fb55-43ed-896b-e80162618412" />
+
+
 ## Insight Synthesis
 
 1.High-value and highly engaged segments drive most observed CLV but also account for a disproportionate share of churned revenue
@@ -167,6 +178,10 @@ This segmentation confirmed that churn risk is not linear with customer value an
 2.Recent acquisition cohorts show strong CLV growth but increasing revenue volatility
 
 3.The greatest revenue risk stems from engaged, friction-prone customers, not disengaged low-value users
+
+
+<img width="1000" height="800" alt="dashboard" src="https://github.com/user-attachments/assets/a0736f6a-221e-4a94-868b-687bbebd63d2" />
+
 
 ## Recommendations
 
